@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <Header />
       <main>
         <Container className='py-3'>
-          <h1>Hello World!</h1>
+          <Home />
         </Container>
       </main>
       <Footer />
