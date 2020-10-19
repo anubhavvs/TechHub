@@ -13,6 +13,7 @@ import Shipping from './pages/Shipping';
 import Payment from './pages/Payment';
 import PlaceOrder from './pages/PlaceOrder';
 import Order from './pages/Order';
+import OrderList from './pages/OrderList';
 import UserList from './pages/UserList';
 import UserEdit from './pages/UserEdit';
 import ProductList from './pages/ProductList';
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/admin/user/:id/edit' component={UserEdit} />
           <Route path='/admin/productlist' component={ProductList} />
           <Route path='/admin/product/:id/edit' component={ProductEdit} />
+          <Route path='/admin/orderlist' component={OrderList} />
           <Route path='/' component={Home} exact />
         </Container>
       </main>
